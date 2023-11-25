@@ -1,0 +1,163 @@
+/* #region PADRÃO*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #aaa;
+    font-weight: 300;
+    padding: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type='text'],
+input[type='email'] {
+    height: 50px !important;
+    border-radius: 10px !important;
+    margin-bottom: 8px !important;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    border: 1px solid #a3d65c;
+    color: #4d9cc9;
+    background: #fff;
+    padding-left: 17px !important;
+    transition: 0.5s
+}
+
+input[type='text']:focus,
+input[type='email']:focus {
+    border: 2px solid #4d9cc9;
+    box-shadow: none;
+}
+
+label {
+    line-height: 30px;
+    color: #fff
+}
+
+.btnEnviar {
+    background-color: #fd7f3e;
+    border-radius: 10px !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 18px 10px 15px 10px;
+    transition: 0.7s;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #a3d65c;
+    width: 100%;
+    font-size: 12pt
+}
+
+.btnEnviar:hover {
+    background-color: #ffff;
+    color: #a3d65c;
+}
+
+h1 {
+    font-size: 40pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+.div-tudo {
+    width: 65%;
+    margin: 0px auto;
+    padding: 30px 30px 0px 30px;
+    height: 100%;
+}
+
+.laranja {
+    color: #fd7f3e
+}
+
+.verde {
+    color: #a3d65c
+}
+
+.azul {
+    color: #4d9cc9
+}
+
+.data {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 600;
+    margin-top: -25px
+}
+
+.texto {
+    line-height: 35px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.logo img {
+    width: 30%
+}
+
+.bloco-parceiros {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.bloco-parceiros img {
+    width: 100%;
+}
+
+.bloco-formulario {
+    background: #a3d65c;
+    padding: 50px 10px 50px 10px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center
+}
+
+@media screen and (max-width: 700px) {
+    .div-tudo {
+        width: 100%;
+        padding: 30px 10px 0px 10px;
+    }
+    h1 {
+        font-size: 30pt
+    }
+    .data {
+        font-size: 16pt
+    }
+    .logo img {
+        width: 60%
+    }
+    .bloco-parceiros img {
+        width: 60%;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .div-tudo {
+        padding: 30px 5px 0px 5px;
+    }
+    h1 {
+        font-size: 25pt
+    }
+}
